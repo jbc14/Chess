@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chess-game {
+  width: 80vh;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid white 1px;
+}
+
+.chess-box {
+  height: 12.5%;
+  width: 12.5%;
+}
+
+.chess-box-white {
+  background-color: white;
+}
+
+.chess-box-black {
+  background-color: black;
+}
